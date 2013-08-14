@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Glass ball, Lambertian cylinder and a box
+ -->
+<scene>
+  <camera>
+    <viewPoint>10 6 -4</viewPoint>
+    <viewDir>-3 -2 2</viewDir>
+    <projNormal>3 2 -2</projNormal>
+    <viewUp>0 0 -1</viewUp>
+    <projDistance>4</projDistance>
+    <viewWidth>2.5</viewWidth>
+    <viewHeight>2.5</viewHeight>
+  </camera>
+  <image>
+    300 300 
+  </image>
+
+  <shader name="red" type="Lambertian">
+    <diffuseColor>1 0 0</diffuseColor>
+  </shader>
+  
+  <shader name="blue" type="Lambertian">
+    <diffuseColor>0 1 0	</diffuseColor>
+  </shader>
+  
+  <shader name="gray" type="Lambertian">
+    <diffuseColor>.5 .5 .5 </diffuseColor>
+  </shader>
+  
+  <shader name="glass" type="Glass">
+    <refractiveIndex>1.5</refractiveIndex>
+  </shader>
+
+    
+  <surface type="Cylinder">
+    <shader ref="red" />
+    <center>1 0 1</center>    
+    <radius>1</radius>
+    <height>2</height>
+  </surface>
+  <surface type="Sphere">
+    <shader ref="glass" />
+    <center>4 0 1</center>    
+    <radius>1</radius>
+  </surface>
+  <surface type="Box">
+    
+    <shader ref="blue" />
+
+    <minPt>2 2 1</minPt>
+
+    <maxPt>3 3 2</maxPt>
+
+  </surface>
+
+  <surface type="Box">
+
+    <shader ref="gray" />
+
+    <minPt>-5 -6 3.1 </minPt>
+
+    <maxPt>5 6 3 </maxPt>
+
+  </surface>
+
+
+  <light>
+    <position>6 3 -7</position>
+    <intensity>1 1 1</intensity>
+  </light>
+  <light>
+    <position>5 0 2</position>
+    <intensity>1 1 1</intensity>
+  </light>
+
+</scene>

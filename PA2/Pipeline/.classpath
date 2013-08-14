@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="jars/gluegen-rt.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jogamp.org/deployment/archive/master/gluegen_372-joal_176-jogl_408-jocl_370/javadoc/jogl/javadoc/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Pipeline/libs/32"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/jogl.all.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jogamp.org/deployment/archive/master/gluegen_372-joal_176-jogl_408-jocl_370/javadoc/jogl/javadoc/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Pipeline/libs/32"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/nativewindow.all.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jogamp.org/deployment/archive/master/gluegen_372-joal_176-jogl_408-jocl_370/javadoc/jogl/javadoc/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Pipeline/libs/32"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/newt.all.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jogamp.org/deployment/archive/master/gluegen_372-joal_176-jogl_408-jocl_370/javadoc/jogl/javadoc/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Pipeline/libs/32"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/vecmath.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://download.java.net/media/java3d/javadoc/1.5.2/index.html"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path=""/>
+</classpath>

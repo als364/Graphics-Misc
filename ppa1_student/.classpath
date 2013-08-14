@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="jars/gluegen-rt.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="ppa1/libs/64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/jogl.all.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="ppa1/libs/64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/nativewindow.all.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="ppa1/libs/64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/newt.all.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="ppa1/libs/64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/snakeyaml-1.9.jar"/>
+	<classpathentry kind="lib" path="jars/TableLayout.jar"/>
+	<classpathentry kind="lib" path="jars/vecmath.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
